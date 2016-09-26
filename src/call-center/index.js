@@ -8,7 +8,7 @@ let tasks = [];
 
 
 module.exports = {
-	module: require('./reception.js'),
+	module: require('./call-center.js'),
 	permissions: [],
 	tasks: tasks,
 	exposed: true,

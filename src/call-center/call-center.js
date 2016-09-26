@@ -10,13 +10,13 @@ class CallCenter {
 	}
 	init(config) {}
 	launch() {
+		console.log('Call Center Init');
 		return Promise.resolve(true);
 	}
 	actionReady() {
 		return Promise.resolve(true);
 	}
 	actionBootstrap() {
-		console.log('Call Center Init');
 		return Promise.resolve(true);
 	}
 }
